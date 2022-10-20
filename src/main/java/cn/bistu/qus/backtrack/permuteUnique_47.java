@@ -25,6 +25,7 @@ public class permuteUnique_47 {
             // 如果用过了
             if(f[i])
                 continue;
+            // 这里的!f[i-1]是为了指示，保证重复元素的顺序
             if(i>0&&nums[i]==nums[i-1]&&!f[i-1])
                 continue;
 
