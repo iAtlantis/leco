@@ -27,8 +27,9 @@ public class solution {
     }
 
 
+
     public static void main(String[] args) {
         solution solution = new solution();
-        System.out.println(solution.mergeAlternately("abc", "123"));
+        int[] nums = {1,1,1,0,6,12};
     }
 }
